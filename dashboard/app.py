@@ -137,10 +137,9 @@ def display_temp():
     latest_dictionary_entry = reactive_calc_combined()
     return f"{latest_dictionary_entry['temp']} C"
 
-ui.p("warmer than usual")
+ui.p("We will receive snow rain today")
 icon_svg("draindrops")
-<i class="fa-regular fa-raindrops"></i>
-
+icon_svg("snow")
 
 ui.hr()
 
