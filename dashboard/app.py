@@ -112,13 +112,13 @@ with ui.sidebar(open="open"):
 
     ui.a(
         "GitHub Source",
-        href="https://github.com/debstcyr/cintel-05-cintel-basic",
+        href="https://github.com/14dstcyr/cintel-05-cintel-basic",
         target="_blank",
     )
 
     ui.a(
         "GitHub App",
-        href="https://debstcyr.github.io/cintel-05-cintel-basic/",
+        href="https://14dstcyr.github.io/cintel-05-cintel-basic/",
         target="_blank",
     )
 
