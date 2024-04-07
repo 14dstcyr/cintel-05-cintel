@@ -182,7 +182,7 @@ with ui.layout_columns():
             
             # Ensure the DataFrame is not empty before plotting
             if not df.empty:
-                # Convert the 'timestamp' column to datatime for better plotting
+                # Convert the 'timestamp' column to datetime for better plotting
                 df["timestamp"] = pd.to_datetime(df["timestamp"])
                 
                 # Create scatter plot for readings
